@@ -62,7 +62,7 @@ per-command latency from about 50 ms to about 25 ms.
 
 | Task | Command |
 |---|---|
-| Find consoles | `botbase discover [--subnet 10.0.0.0/24]` |
+| Find consoles | `botbase discover [--subnet 192.168.1.0/24]` |
 | Status and running game | `botbase info [--json]` |
 | Screenshot | `botbase screenshot [-o file.jpg]` |
 | Buttons | `botbase click A B --gap 200`, `press ZR`, `release ZR`, `hold A 1500` |
