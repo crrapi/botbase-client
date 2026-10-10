@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "botbase-client"
+version = "0.1.0"
+description = "Python client and CLI for sys-botbase: remote control, memory access and screenshots for a Nintendo Switch on CFW"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+authors = [{ name = "Chris Rrapi" }]
+keywords = ["nintendo-switch", "sys-botbase", "atmosphere", "homebrew", "automation"]
+
+[project.scripts]
+botbase = "botbase.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
